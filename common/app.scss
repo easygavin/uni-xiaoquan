@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+	 font-family: iconfont;
+	 src: url('~@/static/iconfont.ttf');
+ }
+ 
+.content {
+ 	background: #f3f3f3;
+ }
+
+.no-wrap {
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.block-title {
+	padding: 20upx;
+	font-size: 36upx;
+	color: #000;
+}
+
+.more {
+  float: right;
+  font-size: 28upx;
+  color: #5c5c5c;
+
+  label {
+    margin-left: 10upx;
+		font-family: iconfont;
+  }
+}
+
+.icon-squre {
+  width: 28upx;
+  height: 17upx;
+  display: inline-block;
+  background: url('~@/static/squre.png') no-repeat center center;
+  background-size: contain;
+  margin-right: 10upx;
+}
+
+.icon-fine {
+	width: 37upx;
+	height: 38upx;
+	margin-right: 10upx;
+	display: inline-block;
+	background: url('~@/static/fine.png') no-repeat center center;
+	background-size: contain;
+
+	&.on {
+		background: url('~@/static/fine-on.png') no-repeat center center;
+		background-size: contain;
+	}
+}
+
+.icon-user {
+  width: 25upx;
+  height: 30upx;
+  display: inline-block;
+  background: url('~@/static/user.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-xb {
+  width: 25upx;
+  height: 25upx;
+  display: inline-block;
+  background: url('~@/static/xb.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-add {
+  width: 30upx;
+  height: 30upx;
+  display: inline-block;
+  background: url('~@/static/add.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-cancel {
+  width: 30upx;
+  height: 30upx;
+  display: inline-block;
+  background: url('~@/static/cancel.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-ll {
+  width: 36upx;
+  height: 30upx;
+  display: inline-block;
+  background: url('~@/static/ll.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-pl {
+  width: 36upx;
+  height: 30upx;
+  display: inline-block;
+  background: url('~@/static/pl.png') no-repeat center center;
+  background-size: contain;
+}
+
+.icon-msg {
+  width: 42px;
+  height: 44px;
+  display: inline-block;
+  background: url('~@/static/msg.png') no-repeat center center;
+  background-size: contain;
+}

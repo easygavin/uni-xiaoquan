@@ -1,0 +1,178 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "小泉精灵",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue64e",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"color": "#fff"
+						}],
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/nav/nav",
+			"style": {
+				"navigationBarTitleText": "导航"
+			}
+		},
+		{
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "博物馆"
+			}
+		},
+		{
+			"path": "pages/discv/discv",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue616",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff",
+								"float": "left"
+							},
+							{
+								"text": "\ue6a7",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/discv/tzList",
+			"style": {
+				"navigationBarTitleText": "论坛",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "我的",
+							"fontSize": "15px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/discv/tzDetail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/discv/qzList",
+			"style": {
+				"navigationBarTitleText": "圈子"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/me/myCar",
+			"style": {
+				"navigationBarTitleText": "我的车辆"
+			}
+		},
+		{
+			"path": "pages/me/myMsg",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/me/msgDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		{
+			"path": "pages/me/myTz",
+			"style": {
+				"navigationBarTitleText": "我的帖子"
+			}
+		},
+		{
+			"path": "pages/me/myQz",
+			"style": {
+				"navigationBarTitleText": "我的圈子"
+			}
+		},
+		{
+			"path": "pages/me/userConf",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "小泉精灵",
+		"navigationBarBackgroundColor": "#4291fa",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"selectedColor": "#FFFFFF",
+		"borderStyle": "black",
+		"backgroundColor": "#4291FA",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/nav/nav",
+				"iconPath": "static/nav.png",
+				"selectedIconPath": "static/nav-on.png",
+				"text": "导航"
+			},
+			{
+				"pagePath": "pages/car/car",
+				"iconPath": "static/car.png",
+				"selectedIconPath": "static/car-on.png",
+				"text": "博物馆"
+			},
+			{
+				"pagePath": "pages/discv/discv",
+				"iconPath": "static/discv.png",
+				"selectedIconPath": "static/discv-on.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/me.png",
+				"selectedIconPath": "static/me-on.png",
+				"text": "我的"
+			}
+		]
+	}
+}
